@@ -1,0 +1,33 @@
+.Welcome {
+  .Welcome-left-column {
+    .Welcome-container {
+      padding: 3rem 0;
+    }
+
+    .Welcome-title {
+      color: #2B253D;
+    }
+
+    .Welcome-text {
+      color: #5d87a8;
+    }
+
+    .Welcome-finger:before {
+      content: "👇";
+    }
+    .Welcome-finger:hover {
+      &:before {
+        content: "👉";
+      }
+    }
+  }
+
+  .Welcome-card {
+    position: relative;
+
+    .Welcome-card-tag {
+      position: absolute;
+      top: 130px;
+    }
+  }
+}
