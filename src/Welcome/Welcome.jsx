@@ -6,12 +6,14 @@ import me from "./img/me.png";
 import "./Welcome.scss";
 
 const Welcome = _ => {
+    const transitionHover = "transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110";
+
     return (
         <div className="Welcome">
             <div className="Welcome-container container mx-auto">
                 <div className="grid grid-cols-2">
                     <div className="Welcome-left-column">
-                        <h1 className="Welcome-title text-6xl font-bold mb-10">Yo, moi c'est Lucas 👋</h1>
+                        <h1 className={"Welcome-title text-6xl font-bold mb-10 " + transitionHover}>Yo, moi c'est Lucas 👋</h1>
                         <p className="Welcome-text text-base w-2/3">
                             Je suis <span className="font-bold">développeur web</span> freelance et
                             étudiant en troisième année à <span className="font-bold">Epitech Bordeaux</span>.
@@ -31,28 +33,28 @@ const Welcome = _ => {
                             <p className="text-base font-bold pt-5 pb-2">Lucas Lamothe</p>
                         </div>
                         <div className="Welcome-card-icon">
-                            <div className="Welcome-card-icon-child flex flex-col items-center justify-center rounded-3xl w-22 p-3 shadow-xl">
+                            <div className={"Welcome-card-icon-child flex flex-col items-center justify-center rounded-3xl w-22 p-3 shadow-xl " + transitionHover}>
                                 <img src={php} alt="" className="rounded-full h-12 w-12 mx-auto"/>
                             </div>
-                            <div className="Welcome-card-icon-child flex flex-col items-center justify-center rounded-3xl w-22 p-3 shadow-xl">
+                            <div className={"Welcome-card-icon-child flex flex-col items-center justify-center rounded-3xl w-22 p-3 shadow-xl " + transitionHover}>
                                 <img src={react} alt="" className="rounded-full h-12 w-12 mx-auto"/>
                             </div>
-                            <div className="Welcome-card-icon-child flex flex-col items-center justify-center rounded-3xl w-22 p-3 shadow-xl">
+                            <div className={"Welcome-card-icon-child flex flex-col items-center justify-center rounded-3xl w-22 p-3 shadow-xl " + transitionHover}>
                                 <img src={javascript} alt="" className="rounded-full h-12 w-12 mx-auto"/>
                             </div>
-                            <div className="Welcome-card-icon-child flex flex-col items-center justify-center rounded-xl w-44 p-3 shadow-2xl">
+                            <div className={"Welcome-card-icon-child flex flex-col items-center justify-center rounded-xl w-44 p-3 shadow-2xl " + transitionHover}>
                                 <p className="text-base">📜 Wordpress</p>
                             </div>
-                            <div className="Welcome-card-icon-child flex flex-col items-center justify-center rounded-xl w-44 p-3 shadow-2xl">
+                            <div className={"Welcome-card-icon-child flex flex-col items-center justify-center rounded-xl w-44 p-3 shadow-2xl " + transitionHover}>
                                 <p className="text-base">⭐️ Site vitrine</p>
                             </div>
-                            <div className="Welcome-card-icon-child flex flex-col items-center justify-center rounded-xl w-44 p-3 shadow-2xl">
+                            <div className={"Welcome-card-icon-child flex flex-col items-center justify-center rounded-xl w-44 p-3 shadow-2xl " + transitionHover}>
                                 <p className="text-base">🔨 Maintenance</p>
                             </div>
-                            <div className="Welcome-card-icon-child flex flex-col items-center justify-center rounded-xl w-44 p-3 shadow-2xl">
+                            <div className={"Welcome-card-icon-child flex flex-col items-center justify-center rounded-xl w-44 p-3 shadow-2xl " + transitionHover}>
                                 <p className="text-base">🛒 E-Commerce</p>
                             </div>
-                            <div className="Welcome-card-icon-child flex flex-col items-center justify-center rounded-xl w-44 p-3 shadow-2xl">
+                            <div className={"Welcome-card-icon-child flex flex-col items-center justify-center rounded-xl w-44 p-3 shadow-2xl " + transitionHover}>
                                 <p className="text-base">⚙️ Administration</p>
                             </div>
                         </div>
