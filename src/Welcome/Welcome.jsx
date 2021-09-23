@@ -27,20 +27,20 @@ const Welcome = _ => {
                     <div className="Welcome-right-column">
                         <div className="Welcome-card flex flex-col items-center justify-center rounded-lg w-64 p-5 mx-auto shadow-xl">
                             <img src={me} alt="" className="rounded-full h-32 w-32 mx-auto shadow-md"/>
-                            <div className="Welcome-card-tag rounded-lg bg-gradient-to-r from-blue-600 to-blue-500 text-white text-xs py-1 px-3">
+                            <div className={"Welcome-card-tag rounded-lg bg-gradient-to-r from-blue-600 to-blue-500 text-white text-xs py-1 px-3 " + transitionHover}>
                                 Web/Mobile
                             </div>
                             <p className="text-base font-bold pt-5 pb-2">Lucas Lamothe</p>
                         </div>
                         <div className="Welcome-card-icon">
                             <div className={"Welcome-card-icon-child flex flex-col items-center justify-center rounded-3xl w-22 p-3 shadow-xl " + transitionHover}>
-                                <img src={php} alt="" className="rounded-full h-12 w-12 mx-auto"/>
+                                <img src={php} alt="logo-php" className="rounded-full h-12 w-12 mx-auto"/>
                             </div>
                             <div className={"Welcome-card-icon-child flex flex-col items-center justify-center rounded-3xl w-22 p-3 shadow-xl " + transitionHover}>
-                                <img src={react} alt="" className="rounded-full h-12 w-12 mx-auto"/>
+                                <img src={react} alt="logo-react" className="rounded-full h-12 w-12 mx-auto"/>
                             </div>
                             <div className={"Welcome-card-icon-child flex flex-col items-center justify-center rounded-3xl w-22 p-3 shadow-xl " + transitionHover}>
-                                <img src={javascript} alt="" className="rounded-full h-12 w-12 mx-auto"/>
+                                <img src={javascript} alt="logo-javascript" className="rounded-full h-12 w-12 mx-auto"/>
                             </div>
                             <div className={"Welcome-card-icon-child flex flex-col items-center justify-center rounded-xl w-44 p-3 shadow-2xl " + transitionHover}>
                                 <p className="text-base">📜 Wordpress</p>
