@@ -1,7 +1,3 @@
-import linkedin from "./svg/linkedin.svg";
-import github from "./svg/github.svg";
-import globe from "./svg/globe.svg";
-
 const Header = _ => {
     const transitionHover = "transition duration-500 ease-in-out transform hover:scale-125";
 
