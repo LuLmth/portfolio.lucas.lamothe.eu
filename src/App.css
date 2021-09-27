@@ -2,4 +2,11 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    color: #2B253D;
+}
+
+@media (max-width: 768px) {
+    body {
+        display: none;
+    }
 }

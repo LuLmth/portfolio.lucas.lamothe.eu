@@ -1,0 +1,24 @@
+.Projects {
+  .Project-card .Project-card-description {
+    position: relative;
+
+    .Project-card-description-category {
+      position: absolute;
+
+      top: 20px;
+      left: 10%;
+    }
+    .Project-card-description-title {
+       position: absolute;
+
+       top: 30%;
+       left: 10%;
+    }
+    .Project-card-description-techno {
+      position: absolute;
+
+      bottom: 15px;
+      left: 10%;
+    }
+  }
+}

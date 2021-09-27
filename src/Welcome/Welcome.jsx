@@ -13,7 +13,7 @@ const Welcome = _ => {
             <div className="Welcome-container container mx-auto">
                 <div className="grid grid-cols-2">
                     <div className="Welcome-left-column">
-                        <h1 className={"Welcome-title text-6xl font-bold mb-10 " + transitionHover}>Yo, moi c'est Lucas 👋</h1>
+                        <h1 className={"Welcome-title text-6xl font-bold mb-10 " + transitionHover}>Hello, moi c'est Lucas 👋</h1>
                         <p className="Welcome-text text-base w-2/3">
                             Je suis <span className="font-bold">développeur web</span> freelance et
                             étudiant en troisième année à <span className="font-bold">Epitech Bordeaux</span>.
