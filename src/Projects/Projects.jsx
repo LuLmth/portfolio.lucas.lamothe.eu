@@ -9,8 +9,8 @@ const Projects = _ => {
 
     return (
         <div id="projects" className="Projects">
-            <div className="container mx-auto my-14">
-                <div className="Projects-title mb-12 text-center transition duration-1000 ease-in-out transform hover:scale-95">
+            <div className="Projects-container container mx-auto my-14">
+                <div className="Projects-title mb-16 text-center transition duration-1000 ease-in-out transform hover:scale-95">
                     <h2 className="text-4xl font-bold">Quelques projets 🚀</h2>
                 </div>
                 <div className="grid grid-cols-3">
