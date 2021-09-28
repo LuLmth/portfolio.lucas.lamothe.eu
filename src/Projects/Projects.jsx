@@ -13,7 +13,7 @@ const Projects = _ => {
                 <div className="Projects-title mb-16 text-center transition duration-1000 ease-in-out transform hover:scale-95">
                     <h2 className="text-4xl font-bold">Quelques projets 🚀</h2>
                 </div>
-                <div className="grid grid-cols-3">
+                <div className="grid grid-cols-1 md:grid-cols-3">
                     <div className={"Project-card grid grid-cols-8 rounded-lg w-3/4 h-52 shadow-2xl mx-auto " + transitionHover}>
                         <div className="Project-card-description col-span-5 flex flex-col justify-center px-5">
                             <span className="Project-card-description-category text-base text-blue-500">iOS Mobile App</span>

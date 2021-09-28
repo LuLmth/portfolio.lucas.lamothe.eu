@@ -1,7 +1,7 @@
-import php from "./svg/php.svg";
-import react from "./svg/react.svg";
-import javascript from "./svg/javascript.svg";
-import me from "./img/me.png";
+import php from "../assets/svg/php.svg";
+import react from "../assets/svg/react.svg";
+import javascript from "../assets/svg/javascript.svg";
+import me from "../assets/img/me.png";
 
 import "./Welcome.scss";
 
