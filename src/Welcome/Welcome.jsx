@@ -21,7 +21,9 @@ const Welcome = _ => {
                             à l'affut des dernières annonces.
                         </p>
                         <p className="Welcome-see-more Welcome-text text-base w-1/3 mt-8">
-                            <span className="Welcome-finger"></span><a href="#projects" className="pl-2">Voir mes projets</a>
+                            <a href="#contact">
+                                <span className="Welcome-finger"></span><span className="pl-2">Me contacter</span>
+                            </a>
                         </p>
                     </div>
                     <div className="Welcome-right-column">

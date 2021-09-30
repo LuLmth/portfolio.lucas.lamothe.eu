@@ -26,29 +26,20 @@ const Header = _ => {
                             </div>
                             <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                                 {/*<div className="flex-shrink-0 flex items-center">
-                                <p className="text-2xl text-dark-900">Lucas Lamothe</p>
-                            </div>*/}
+                                    <p className="text-2xl text-dark-900">Lucas Lamothe</p>
+                                </div>
                                 <div className="hidden sm:block sm:ml-6">
                                     <div className="flex space-x-10">
-                                        <a href="#"
-                                           className="text-black-500 hover:text-blue-600 px-3 py-2 rounded-md text-base font-medium"
-                                           aria-current="page">
-                                            Home
-                                        </a>
-                                        <a href="#about"
-                                           className="text-black-500 hover:text-blue-600 px-3 py-2 rounded-md text-base font-medium">
-                                            About
-                                        </a>
                                         <a href="#projects"
                                            className="text-black-500 hover:text-blue-600 px-3 py-2 rounded-md text-base font-medium">
-                                            Projects
+                                            Projets
                                         </a>
                                         <a href="#contact"
                                            className="text-black-500 hover:text-blue-600 px-3 py-2 rounded-md text-base font-medium">
                                             Contact
                                         </a>
                                     </div>
-                                </div>
+                                </div>*/}
                             </div>
                             <div className="hidden sm:block sm:ml-6">
                                 <div className="flex space-x-10 items-center pr-2">
