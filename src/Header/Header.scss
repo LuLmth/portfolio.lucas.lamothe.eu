@@ -1,0 +1,13 @@
+.Header {
+  .social-button {
+    .social-button-text {
+      display: none;
+    }
+
+    &:hover {
+      .social-button-text {
+        display: block;
+      }
+    }
+  }
+}

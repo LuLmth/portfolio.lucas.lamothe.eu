@@ -4,6 +4,8 @@ import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
 
+import ProjectsConfig from './Projects.config';
+
 import './App.css';
 
 function App() {
@@ -11,7 +13,7 @@ function App() {
         <div className="App">
             <Header />
             <Welcome />
-            <Projects />
+            <Projects projects={ProjectsConfig} />
             <Contact />
             <Footer />
         </div>

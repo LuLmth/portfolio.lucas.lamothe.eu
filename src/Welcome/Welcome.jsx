@@ -2,6 +2,7 @@ import php from "../assets/svg/php.svg";
 import react from "../assets/svg/react.svg";
 import javascript from "../assets/svg/javascript.svg";
 import me from "../assets/img/me.png";
+import cv from "../assets/CV_LAMOTHE_Lucas.pdf";
 
 import "./Welcome.scss";
 
@@ -20,11 +21,14 @@ const Welcome = _ => {
                             Je suis quelqu'un de sportif et passionné de nouvelles technologies, toujours
                             à l'affut des dernières annonces.
                         </p>
-                        <p className="Welcome-see-more Welcome-text text-base w-1/3 mt-8">
+                        <p className="Welcome-text text-base w-2/3 mt-5">
+                            Vous pouvez retrouver mon CV <a className="font-bold hover:underline" href={cv} target="_blank" rel="noreferrer">ici même 📜</a>
+                        </p>
+                        {/*<p className="Welcome-see-more Welcome-text text-base w-1/3 mt-8">
                             <a href="#contact">
                                 <span className="Welcome-finger"></span><span className="pl-2">Me contacter</span>
                             </a>
-                        </p>
+                        </p>*/}
                     </div>
                     <div className="Welcome-right-column">
                         <div className="Welcome-card flex flex-col items-center justify-center rounded-lg w-64 p-5 mx-auto shadow-xl">
