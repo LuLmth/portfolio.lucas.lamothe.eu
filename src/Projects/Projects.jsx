@@ -1,7 +1,3 @@
-import react from "../assets/svg/react.svg";
-import javascript from "../assets/svg/javascript.svg";
-import php from "../assets/svg/php.svg";
-
 import "./Projects.scss";
 
 const Projects = ({ projects }) => {
@@ -13,33 +9,35 @@ const Projects = ({ projects }) => {
                 <div className="Projects-title mb-16 text-center transition duration-1000 ease-in-out transform hover:scale-95">
                     <h2 className="text-4xl font-bold">Quelques projets 🚀</h2>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-3">
+                <div className={"grid grid-cols-1 md:grid-cols-"+(projects.length < 3 ? projects.length : 3)}>
                     {
                         projects.map(project => {
                             return (
-                                <div className={"Project-card grid grid-cols-8 rounded-lg w-3/4 h-52 shadow-2xl mx-auto " + transitionHover}>
-                                    <div className="Project-card-description col-span-5 flex flex-col justify-center px-5">
-                                        <span className={"Project-card-description-category text-base text-"+project.color+"-500"}>{project.category}</span>
-                                        <div className="Project-card-description-title">
-                                            <h3 className="text-lg font-bold">{project.title}</h3>
-                                            <span className="text-gray-500 text-xs">{project.company}</span>
+                                <a key={project.id} href={project.url}>
+                                    <div className={"Project-card grid grid-cols-8 rounded-lg w-3/4 h-52 shadow-2xl mx-auto " + transitionHover}>
+                                        <div className="Project-card-description col-span-5 flex flex-col justify-center px-5">
+                                            <span className={"Project-card-description-category text-base text-"+project.color+"-500"}>{project.category}</span>
+                                            <div className="Project-card-description-title">
+                                                <h3 className="text-lg font-bold">{project.title}</h3>
+                                                <span className="text-gray-500 text-xs">{project.company}</span>
+                                            </div>
+                                            <div className="Project-card-description-techno flex flex-row space-x-3">
+                                                {
+                                                    project.technos.map(techno => {
+                                                        return (
+                                                            <div key={techno.id} className="bg-white flex flex-col items-center justify-center rounded-3xl w-10 p-2 shadow-xl">
+                                                                <img className="rounded-full h-6 w-6 mx-auto" src={techno.svg} alt="logo-react"/>
+                                                            </div>
+                                                        );
+                                                    })
+                                                }
+                                            </div>
                                         </div>
-                                        <div className="Project-card-description-techno flex flex-row space-x-3">
-                                            {
-                                                project.technos.map(techno => {
-                                                    return (
-                                                        <div className="bg-white flex flex-col items-center justify-center rounded-3xl w-10 p-2 shadow-xl">
-                                                            <img className="rounded-full h-6 w-6 mx-auto" src={techno} alt="logo-react"/>
-                                                        </div>
-                                                    );
-                                                })
-                                            }
+                                        <div className="Project-card-images col-span-3">
+                                            <img className="h-full object-cover rounded-r-lg" src={project.image} alt="logo-project"/>
                                         </div>
                                     </div>
-                                    <div className="Project-card-images col-span-3">
-                                        <img className="h-full object-cover rounded-r-lg" src={project.image} alt="logo-project"/>
-                                    </div>
-                                </div>
+                                </a>
                             );
                         })
                     }
