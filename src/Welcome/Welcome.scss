@@ -80,3 +80,40 @@
     }
   }
 }
+
+@media (max-width: 1440px) {
+  .Welcome-card-icon-child {
+    &:nth-child(1) {
+      top: -15px !important;
+      left: 150px !important;
+    }
+    &:nth-child(2) {
+      top: 30px !important;
+      left: 420px !important;
+    }
+    &:nth-child(3) {
+      top: 180px !important;
+      left: 160px !important;
+    }
+    &:nth-child(4) {
+      top: 90px !important;
+      left: -20px !important;
+    }
+    &:nth-child(5) {
+      top: 250px !important;
+      left: 315px !important;
+    }
+    &:nth-child(6) {
+      top: 125px !important;
+      left: 485px !important;
+    }
+    &:nth-child(7) {
+      top: -55px !important;
+      left: 475px !important;
+    }
+    &:nth-child(8) {
+      top: -90px !important;
+      left: 235px !important;
+    }
+  }
+}
