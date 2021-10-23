@@ -1,7 +1,7 @@
 import php from "../assets/svg/php.svg";
 import react from "../assets/svg/react.svg";
 import javascript from "../assets/svg/javascript.svg";
-import me from "../assets/img/me.png";
+import me from "../assets/img/me_top.jpg";
 import cv from "../assets/CV_LAMOTHE_Lucas.pdf";
 
 import "./Welcome.scss";

@@ -2,6 +2,7 @@ import "./Projects.scss";
 
 const Projects = ({ projects }) => {
     const transitionHover = "transition duration-700 ease-in-out transform hover:translate-y-3 hover:scale-110";
+    const gridColsSize = projects.length < 3 ? projects.length : 3;
 
     return (
         <div id="projects" className="Projects">
@@ -9,7 +10,7 @@ const Projects = ({ projects }) => {
                 <div className="Projects-title mb-16 text-center transition duration-1000 ease-in-out transform hover:scale-95">
                     <h2 className="text-4xl font-bold">Quelques projets 🚀</h2>
                 </div>
-                <div className={"grid grid-cols-1 md:grid-cols-"+(projects.length < 3 ? projects.length : 3)}>
+                <div className={`grid grid-cols-${gridColsSize} md:grid-cols-${gridColsSize}`}>
                     {
                         projects.map(project => {
                             return (
