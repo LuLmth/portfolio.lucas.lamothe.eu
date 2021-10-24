@@ -14,7 +14,7 @@ const Projects = ({ projects }) => {
                     {
                         projects.map(project => {
                             return (
-                                <a key={project.id} href={project.url}>
+                                <a key={project.id} href={project.url} target="_blank" rel="noreferrer">
                                     <div className={"Project-card grid grid-cols-8 rounded-lg w-3/4 h-52 shadow-2xl mx-auto " + transitionHover}>
                                         <div className="Project-card-description col-span-5 flex flex-col justify-center px-5">
                                             <span className={"Project-card-description-category text-base text-"+project.color+"-500"}>{project.category}</span>

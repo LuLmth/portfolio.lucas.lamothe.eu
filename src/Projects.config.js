@@ -4,13 +4,13 @@ import figma from "./assets/svg/figma.svg";
 const projects = [
     {
         id: 1,
-        color: "blue",
+        color: "green",
         category: "Innovation",
         title: "TrackMyPlate - Projet de fin d'études",
         company: "Epitech Bordeaux",
         technos: [{id: 1, svg: figma}],
         image: "https://cdn.dribbble.com/users/427857/screenshots/14390260/media/8613d80ed1b4b6f57679223da9524083.png?compress=1&resize=400x300",
-        url: "https://medium.com/@trackmyplate?p=3a2b334d284e"
+        url: "https://trackmyplate.fr"
     },
     {
         id: 2,
