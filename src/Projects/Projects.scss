@@ -14,16 +14,25 @@
       left: 10%;
     }
     .Project-card-description-title {
-       position: absolute;
+      position: absolute;
 
-       top: 30%;
-       left: 10%;
+      top: 30%;
+      left: 10%;
     }
     .Project-card-description-techno {
       position: absolute;
 
       bottom: 15px;
       left: 10%;
+    }
+  }
+}
+
+@media (max-width: 1026px) {
+  .Projects {
+    .Projects-container {
+      margin-top: 6rem;
+      margin-bottom: 6rem;
     }
   }
 }

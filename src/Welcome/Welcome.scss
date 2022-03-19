@@ -6,7 +6,7 @@
 
   .Welcome-left-column {
     .Welcome-title {
-      color: #2B253D;
+      color: #2b253d;
     }
 
     .Welcome-text {
@@ -44,17 +44,17 @@
         &:nth-child(1) {
           top: -10px;
           left: 215px;
-          background-color: #ced9ff;
+          background-color: #c9f3ff;
         }
         &:nth-child(2) {
           top: 30px;
           left: 480px;
-          background-color: #c9f3ff;
+          background-color: #ced9ff;
         }
         &:nth-child(3) {
           top: 180px;
           left: 230px;
-          background-color: #fff1c9;
+          background-color: #8ac2fd;
         }
         &:nth-child(4) {
           top: 90px;
@@ -81,7 +81,7 @@
   }
 }
 
-@media (max-width: 1440px) {
+@media (min-width: 1280px) and (max-width: 1440px) {
   .Welcome-card-icon-child {
     &:nth-child(1) {
       top: -15px !important;
@@ -114,6 +114,92 @@
     &:nth-child(8) {
       top: -90px !important;
       left: 235px !important;
+    }
+  }
+}
+
+@media (min-width: 1026px) and (max-width: 1280px) {
+  .Welcome-card-icon-child {
+    &:nth-child(1) {
+      top: -15px !important;
+      left: 100px !important;
+    }
+    &:nth-child(2) {
+      top: 30px !important;
+      left: 360px !important;
+    }
+    &:nth-child(3) {
+      top: 180px !important;
+      left: 100px !important;
+    }
+    &:nth-child(4) {
+      top: 90px !important;
+      left: -40px !important;
+    }
+    &:nth-child(5) {
+      top: 240px !important;
+      left: 250px !important;
+    }
+    &:nth-child(6) {
+      top: 125px !important;
+      left: 350px !important;
+    }
+    &:nth-child(7) {
+      top: -55px !important;
+      left: 330px !important;
+    }
+    &:nth-child(8) {
+      top: -90px !important;
+      left: 120px !important;
+    }
+  }
+}
+
+@media (max-width: 1026px) {
+  .Welcome {
+    .Welcome-container {
+      margin-top: 2rem;
+      margin-bottom: 4rem;
+    }
+
+    .Welcome-right-column {
+      position: relative;
+
+      .Welcome-card {
+        position: relative;
+
+        .Welcome-card-tag {
+          position: absolute;
+          top: 140px;
+        }
+      }
+
+      .Welcome-card-icon-child {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (min-width: 360px) and (max-width: 414px) {
+  .Welcome-card-icon-child {
+    &:nth-child(1) {
+      display: block !important;
+
+      top: -15px !important;
+      left: 40px !important;
+    }
+    &:nth-child(2) {
+      display: block !important;
+
+      top: 50px !important;
+      left: 300px !important;
+    }
+    &:nth-child(3) {
+      display: block !important;
+
+      top: 200px !important;
+      left: 55px !important;
     }
   }
 }

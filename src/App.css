@@ -1,16 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    color: #2B253D;
-}
-
-@media (max-width: 768px) {
-    body {
-        display: none;
-    }
+  font-family: "Poppins", sans-serif;
+  color: #2b253d;
 }
